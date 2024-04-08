@@ -1,0 +1,33 @@
+.footerStyle{
+    color: #EDE8DF;
+    background-color: #393214;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+    
+}
+      
+.footerStyle h1,
+.footerStyle h2 { 
+   
+    text-align: center;
+    flex: 1;
+    font-size: 25px;
+    margin: 0;
+   
+}
+
+.footerStyle h1 {
+    margin-right: calc((100% - 80%) / 2);
+    
+}
+
+.footerStyle h2 {
+   margin-left: calc((100% - 80%) / 2);
+  
+}
+
+.footerStyle > div {
+    margin-bottom: 20px; /* Add some margin between the sections */
+}

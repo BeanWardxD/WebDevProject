@@ -1,0 +1,40 @@
+.footerStyle {
+    color: #EDE8DF;
+    background-color: #393214;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 10px;
+}
+
+.footerStyle h1,
+.footerStyle h2 {
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.footerStyle .links {
+    display: flex;
+    flex-direction: column; /* Arrange child divs vertically */
+    align-items: center; /* Center child divs horizontally */
+    margin-top: 10px; /* Add space between headings and links */
+}
+
+.footerStyle .links .vertical-links {
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    align-items: center; /* Center links horizontally */
+}
+
+.footerStyle .links .horizontal-links {
+    display: flex;
+    justify-content: center; /* Arrange links horizontally */
+    margin-top: 10px; /* Add space between vertical and horizontal links */
+}
+
+.footerStyle .links a {
+    margin: 5px; /* Adjust margin between links */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}

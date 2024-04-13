@@ -1,33 +1,28 @@
-.footerStyle{
+.footerStyle {
     color: #EDE8DF;
     background-color: #393214;
-    justify-content: space-between;
     display: flex;
-    align-items: center;
-    padding: 20px; 
-    
+    justify-content: space-around; 
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
 }
-      
+
+.footerStyle div {
+    text-align: center; /* Center align the contents of each div */
+}
+
 .footerStyle h1,
-.footerStyle h2 { 
-   
-    text-align: center;
-    flex: 1;
+.footerStyle h2 {
     font-size: 25px;
-    margin: 0;
-   
+    margin-bottom: 10px; /* Add some space between the headings and the content */
 }
 
 .footerStyle h1 {
-    margin-right: calc((100% - 80%) / 2);
-    
+    margin-right: 20x; /* Adjust the margin between the headings (doesn't work?) */
 }
 
-.footerStyle h2 {
-   margin-left: calc((100% - 80%) / 2);
-  
-}
-
-.footerStyle > div {
-    margin-bottom: 20px; /* Add some margin between the sections */
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

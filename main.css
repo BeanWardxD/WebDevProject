@@ -1,3 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.navBar{
+    background-color: #6e6d24;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+.navBar ul{
+     width: 100%;
+     font-family: Tahoma, sans-serif;
+     font-size: 20px;
+     list-style-type: none;
+     overflow: hidden;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     
+}
+
+.navBar li{
+    height: 60px;
+}
+
+
+.navBar a{
+    height: 100%;
+    padding: 0 70px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navBar a:hover{
+    text-decoration:underline;
+    text-decoration-color:#fff200;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.image-container img {
+  width:100%; /* Make the image fill the container */
+  height: auto; /* Keep the aspect ratio */
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+}
+
+
 .footerStyle {
     color: #EDE8DF;
     background-color: #393214;

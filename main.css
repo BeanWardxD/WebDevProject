@@ -5,6 +5,7 @@
 
 body{
     min-height: 100vh;
+    background-color: #f0f0f0;
 }
 
 .navBar{
@@ -15,6 +16,7 @@ body{
      width: 100%;
      font-family: Tahoma, sans-serif;
      font-size: 20px;
+     color: #0f0f0f;
      list-style-type: none;
      overflow: hidden;
      display: flex;
@@ -46,9 +48,21 @@ nav li:first-child{
 }
 
 .image-container img {
-  width:100%; /* Make the image fill the container */
+  width: 100%; /* Make the image fill the container */
   height: auto; /* Keep the aspect ratio */
   object-fit: cover; /* Cover the container without losing aspect ratio */
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f0f0f0;
+}
+.title h1{
+    font-family: Tahoma,sans-serif;
+    font-size: 50px;
+    color: #0f0f0f;
 }
 
 
@@ -58,7 +72,9 @@ nav li:first-child{
     display: flex;
     justify-content: space-around; 
     align-items: flex-start; /* Align items to the top */
-    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom:0;
 }
 
 .footerStyle div {
@@ -79,4 +95,7 @@ nav li:first-child{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
+

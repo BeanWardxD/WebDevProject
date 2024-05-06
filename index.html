@@ -23,6 +23,31 @@
         
     </ul>
  </nav>
+ <div class = "hamburger">
+     <a href = "index.html" class = "active">logo</a>
+     <div id = "navLinks">
+         <a href ="index.html">Home</a>
+         <a href = "index.html">Solar</a>
+         <a href = "index.html">Pacificus</a>
+         <a href = "index.html">Tempestus</a>
+         <a href = "test.html">Ultima</a>
+         <a href = "test.html">Obscurus</a>
+     </div>
+     <a href ="javascript:void(0);" class = "icon" onclick="burgerDrop()">
+     </a>
+     
+ </div>
+    
+ <script>
+ function burgerDrop() {   /*Javascript from w3 schools hamburger menu*/
+     var x = document.getElementById("navLinks");
+     if (x.style.display === "block") {
+        x.style.display = "none";
+     } else {
+       x.style.display = "block";
+     }
+  }
+ </script>
    
   
  <div class="title">
@@ -34,12 +59,16 @@
             <div class="heading-container">
                 <h1> Out of character: </h1>
                 <a href="test.html">Contact</a>
+                <a href="test.html">Other</a>
             </div>
         </div>
         <div>
             <div class="heading-container">
                 <h2> Sign up to our news letter: </h2>
-                <a href="test.html">False contact</a>
+                <form>
+                  <label for="email">Email:</label><br>
+                  <input type="text" id="email" name="email"><br>
+                </form>
             </div>
         </div>
     </div>
